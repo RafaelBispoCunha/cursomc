@@ -1,4 +1,4 @@
-package com.rafaelcunha.cursomc.resources;
+package br.com.rafaelcunha.cursomc.resources;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rafaelcunha.cursomc.domain.Categoria;
+import br.com.rafaelcunha.cursomc.domain.Categoria;
 
 @RestController
 @RequestMapping(value="/categorias")
